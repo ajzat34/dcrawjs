@@ -3,7 +3,7 @@ const { spawn } = require('child_process')
 var dcrawpath
 try { dcrawpath = require('dcrawjs-darwin')} catch(e){}
 try { dcrawpath = require('dcrawjs-win32')} catch(e){}
-if (!dcraw) throw new Error('could not load os specific dcraw build, either dependencies are missing, or your os is not supported')
+if (!dcrawpath) throw new Error('could not load os specific dcraw build, either dependencies are missing, or your os is not supported')
 
 module.exports = function(source, options) {
   return new Promise(function(resolve, reject){
