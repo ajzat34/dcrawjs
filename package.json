@@ -1,6 +1,6 @@
 {
   "name": "dcrawjs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "use dcraw to convert raw images to tiff",
   "main": "index.js",
   "scripts": {
