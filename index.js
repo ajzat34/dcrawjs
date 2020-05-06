@@ -1,3 +1,5 @@
+const { spawn } = require('child_process')
+
 var dcrawpath
 try { dcrawpath = require('dcrawjs-darwin')} catch(e){}
 try { dcrawpath = require('dcrawjs-win32')} catch(e){}
