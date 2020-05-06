@@ -1,0 +1,15 @@
+{
+  "name": "dcrawjs",
+  "version": "1.0.0",
+  "description": "use dcraw to convert raw images to tiff",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ajzat34",
+  "license": "SEE LICENSE IN LICENSE",
+  "optionalDependencies": {
+    "dcrawjs-darwin": "github:ajzat34/dcrawjs-darwin",
+    "dcrawjs-win32": "github:ajzat34/dcrawjs-win32"
+  }
+}
